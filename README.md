@@ -157,4 +157,4 @@ Map<String, Object> human4 = new HashMap<>();
 human4.put("name", "Valya");
 human4.put("age", -5);
 schema.isValid(human4); // false
-```java
+```
