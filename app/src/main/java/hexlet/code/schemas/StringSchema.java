@@ -3,14 +3,10 @@ package hexlet.code.schemas;
 import java.util.Objects;
 
 public class StringSchema extends BaseSchema {
-    public StringSchema() {
-    }
 
-    @Override
-    public final StringSchema required() {
+    public StringSchema() {
         addToList(String.class::isInstance);
         addToList(v -> !Objects.equals(v, ""));
-        return this;
     }
 
     public final StringSchema contains(String subString) {

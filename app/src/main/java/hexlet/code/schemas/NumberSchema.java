@@ -1,13 +1,9 @@
 package hexlet.code.schemas;
 
 public class NumberSchema extends BaseSchema {
-    public NumberSchema() {
-    }
 
-    @Override
-    public final NumberSchema required() {
+    public NumberSchema() {
         addToList(Integer.class::isInstance);
-        return this;
     }
 
     public final NumberSchema range(Integer min, Integer max) {
@@ -16,7 +12,7 @@ public class NumberSchema extends BaseSchema {
     }
 
     public final NumberSchema positive() {
-        addToList(v -> v == null || (v instanceof Integer && ((Integer) v) > 0));
+        addToList(v -> (Integer) v > 0);
         return this;
     }
 }
