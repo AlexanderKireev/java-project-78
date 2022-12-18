@@ -17,10 +17,11 @@ public abstract class BaseSchema {
         requirement = new NotRequired();
     }
 
-    public final BaseSchema required() {
+    public final void setRequired() {
         requirement = new Required();
-        return this;
     }
+
+    public abstract BaseSchema required();
 
     public final String getCurrentState() {
         return requirement.getCurrentState();

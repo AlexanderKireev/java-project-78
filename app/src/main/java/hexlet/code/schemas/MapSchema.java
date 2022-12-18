@@ -8,6 +8,12 @@ public class MapSchema extends BaseSchema {
         addToList(Map.class::isInstance);
     }
 
+    @Override
+    public final MapSchema required() {
+        setRequired();
+        return this;
+    }
+
     public final MapSchema sizeof(int size) {
         addToList(v -> ((Map<?, ?>) v).size() == size);
         return this;

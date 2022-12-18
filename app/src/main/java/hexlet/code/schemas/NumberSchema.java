@@ -6,6 +6,12 @@ public class NumberSchema extends BaseSchema {
         addToList(Integer.class::isInstance);
     }
 
+    @Override
+    public final NumberSchema required() {
+        setRequired();
+        return this;
+    }
+
     public final NumberSchema range(Integer min, Integer max) {
         addToList(v -> !((Integer) v < min || (Integer) v > max));
         return this;
