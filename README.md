@@ -5,7 +5,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/1f9c65208916beabe8a3/test_coverage)](https://codeclimate.com/github/AlexanderKireev/java-project-78/test_coverage)
 ## Проект "Валидатор данных" ("Data Validator")
 Выполнен в рамках обучения в компании "Хекслет" ("Hexlet Ltd.") на курсе java-программирования.
-Сдан на проверку: 12 декабря 2022 года. Студент: Киреев Александр. Куратор: Теплинская Мария ("Hexlet Ltd.").
+Принят: 18 декабря 2022 года. Студент: Киреев Александр. Куратор: Теплинская Мария ("Hexlet Ltd.").
 
 [![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://ru.hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=java-package)
 
